@@ -92,6 +92,7 @@ public class Model {
 			if(path !=null){
 				list.add(new AirportAndDistance(end, (int) path.getWeight()));
 			}
+			
 
 		}
 		Collections.sort(list);
